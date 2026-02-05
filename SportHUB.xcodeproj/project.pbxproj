@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD7232A2F2BB4ED00DF8913 /* SHMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD723292F2BB4ED00DF8913 /* SHMapScreen.swift */; };
+		7DD7232C2F2BB52A00DF8913 /* SHMapSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD7232B2F2BB52A00DF8913 /* SHMapSearchBar.swift */; };
+		7DD723302F2BB56300DF8913 /* SHPlaceDetailsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD7232F2F2BB56300DF8913 /* SHPlaceDetailsSheet.swift */; };
+		7DD723362F2BB63D00DF8913 /* SportPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD723352F2BB63D00DF8913 /* SportPlace.swift */; };
+		7DD723402F2BC1CD00DF8913 /* SHTabsRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD7233F2F2BC1CD00DF8913 /* SHTabsRootView.swift */; };
+		7DD723422F2CEADD00DF8913 /* SHFiltersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD723412F2CEADD00DF8913 /* SHFiltersSheet.swift */; };
+		F459D1572F3339D4005515B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D1522F3339D4005515B9 /* ContentView.swift */; };
+		F459D1582F3339D4005515B9 /* SportHUBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459D1532F3339D4005515B9 /* SportHUBApp.swift */; };
+		F459D1592F3339D4005515B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F459D1512F3339D4005515B9 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DD723192F2BB26700DF8913 /* SportHUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportHUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD723292F2BB4ED00DF8913 /* SHMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMapScreen.swift; sourceTree = "<group>"; };
+		7DD7232B2F2BB52A00DF8913 /* SHMapSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMapSearchBar.swift; sourceTree = "<group>"; };
+		7DD7232F2F2BB56300DF8913 /* SHPlaceDetailsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHPlaceDetailsSheet.swift; sourceTree = "<group>"; };
+		7DD723352F2BB63D00DF8913 /* SportPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportPlace.swift; sourceTree = "<group>"; };
+		7DD7233F2F2BC1CD00DF8913 /* SHTabsRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTabsRootView.swift; sourceTree = "<group>"; };
+		7DD723412F2CEADD00DF8913 /* SHFiltersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHFiltersSheet.swift; sourceTree = "<group>"; };
+		F459D1512F3339D4005515B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F459D1522F3339D4005515B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F459D1532F3339D4005515B9 /* SportHUBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportHUBApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7DD7231B2F2BB26700DF8913 /* SportHUB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SportHUB;
+			sourceTree = "<group>";
+		};
+		7DD7233B2F2BB65C00DF8913 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F44E22032F3151BB0004DC18 /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F47A5ED02F323B0D00190D2C /* Reviews */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		F714F31B2F324E9600956C4E /* Explore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		F7DC950D2F32A6070076E6FB /* Login */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD723162F2BB26700DF8913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DD723102F2BB26700DF8913 = {
+			isa = PBXGroup;
+			children = (
+				7DD7233D2F2BB68000DF8913 /* Resources */,
+				7DD723272F2BB43300DF8913 /* Views */,
+				7DD723342F2BB60800DF8913 /* Models */,
+				7DD7233B2F2BB65C00DF8913 /* ViewModels */,
+				7DD7231B2F2BB26700DF8913 /* SportHUB */,
+				7DD7231A2F2BB26700DF8913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD7231A2F2BB26700DF8913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD723192F2BB26700DF8913 /* SportHUB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD723272F2BB43300DF8913 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC950D2F32A6070076E6FB /* Login */,
+				F714F31B2F324E9600956C4E /* Explore */,
+				F47A5ED02F323B0D00190D2C /* Reviews */,
+				F44E22032F3151BB0004DC18 /* Home */,
+				7DD7233E2F2BC1B300DF8913 /* Root */,
+				7DD723282F2BB47D00DF8913 /* Map */,
+				F459D1522F3339D4005515B9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DD723282F2BB47D00DF8913 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7DD723292F2BB4ED00DF8913 /* SHMapScreen.swift */,
+				7DD7232B2F2BB52A00DF8913 /* SHMapSearchBar.swift */,
+				7DD7232F2F2BB56300DF8913 /* SHPlaceDetailsSheet.swift */,
+				7DD723412F2CEADD00DF8913 /* SHFiltersSheet.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		7DD723342F2BB60800DF8913 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DD723352F2BB63D00DF8913 /* SportPlace.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DD7233D2F2BB68000DF8913 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F459D1512F3339D4005515B9 /* Assets.xcassets */,
+				F459D1532F3339D4005515B9 /* SportHUBApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DD7233E2F2BC1B300DF8913 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				7DD7233F2F2BC1CD00DF8913 /* SHTabsRootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD723182F2BB26700DF8913 /* SportHUB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD723242F2BB26800DF8913 /* Build configuration list for PBXNativeTarget "SportHUB" */;
+			buildPhases = (
+				7DD723152F2BB26700DF8913 /* Sources */,
+				7DD723162F2BB26700DF8913 /* Frameworks */,
+				7DD723172F2BB26700DF8913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7DD7231B2F2BB26700DF8913 /* SportHUB */,
+				7DD7233B2F2BB65C00DF8913 /* ViewModels */,
+				F44E22032F3151BB0004DC18 /* Home */,
+				F47A5ED02F323B0D00190D2C /* Reviews */,
+				F714F31B2F324E9600956C4E /* Explore */,
+				F7DC950D2F32A6070076E6FB /* Login */,
+			);
+			name = SportHUB;
+			packageProductDependencies = (
+			);
+			productName = SportHUB;
+			productReference = 7DD723192F2BB26700DF8913 /* SportHUB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD723112F2BB26700DF8913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					7DD723182F2BB26700DF8913 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 7DD723142F2BB26700DF8913 /* Build configuration list for PBXProject "SportHUB" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DD723102F2BB26700DF8913;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7DD7231A2F2BB26700DF8913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD723182F2BB26700DF8913 /* SportHUB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD723172F2BB26700DF8913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459D1592F3339D4005515B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD723152F2BB26700DF8913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459D1572F3339D4005515B9 /* ContentView.swift in Sources */,
+				F459D1582F3339D4005515B9 /* SportHUBApp.swift in Sources */,
+				7DD723362F2BB63D00DF8913 /* SportPlace.swift in Sources */,
+				7DD723402F2BC1CD00DF8913 /* SHTabsRootView.swift in Sources */,
+				7DD7232A2F2BB4ED00DF8913 /* SHMapScreen.swift in Sources */,
+				7DD7232C2F2BB52A00DF8913 /* SHMapSearchBar.swift in Sources */,
+				7DD723302F2BB56300DF8913 /* SHPlaceDetailsSheet.swift in Sources */,
+				7DD723422F2CEADD00DF8913 /* SHFiltersSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DD723222F2BB26800DF8913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DD723232F2BB26800DF8913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DD723252F2BB26800DF8913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required to display nearby sports venues and provide distance information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilo.giglio.SportHUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DD723262F2BB26800DF8913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required to display nearby sports venues and provide distance information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilo.giglio.SportHUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD723142F2BB26700DF8913 /* Build configuration list for PBXProject "SportHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD723222F2BB26800DF8913 /* Debug */,
+				7DD723232F2BB26800DF8913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD723242F2BB26800DF8913 /* Build configuration list for PBXNativeTarget "SportHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD723252F2BB26800DF8913 /* Debug */,
+				7DD723262F2BB26800DF8913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DD723112F2BB26700DF8913 /* Project object */;
+}
